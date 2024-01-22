@@ -1,0 +1,69 @@
+
+# style attributes in tags must be changed into javascript objects
+
+i.e :- style="width:18rem;"
+
+       must be converted into style={{width:"18rem",other attributes....,height:"55vh",..etc}}
+       - one flower bracket for javascript and another represents object(javascript object)
+
+
+# IN BOOTSTRAP CARD's
+  # bootstrap has 12 column grid(default)
+  class="col-md-4" means the 12 column grid of bootstrap is divided into parts of equal width of size "4" 
+                    in medium sized screen devices
+                  - i.e  WE WILL GET 3 CARDS IN A ROW  
+  class="col-md-3" means bootstrap grid is divided parts of equa l width of size "3" in medium screen sized devices                 
+                  -i.e WE WILL GET 4 CARDS IN A ROW 
+
+  BASIC SYNTAX : - WE WILL KEEP CARDS IN ROW(i.e div of class row)   
+
+  <div class="container">
+
+        <div class="row">
+
+                    <div class="col-md-4">
+                    <!-- Content for the first column -->
+                    </div>
+                    <div class="col-md-4">
+                    <!-- Content for the second column -->
+                    </div>
+                    <div class="col-md-4">
+                    <!-- Content for the third column -->
+                    </div>
+
+        </div>
+
+</div>             
+
+
+# PROPS MUST BE RECEIVED (BY CREATING VARIABLES) IN render() function in class based components
+
+
+# componentDidMOunt will start running after render() function
+
+async componentDidMount(){
+  console.log("componentDidMount IS RUNNING");
+  let url="https://newsapi.org/v2/top-headlines?country=us&apiKey=cb359238e8444422b53814e22b03649e";
+  let data =  await fetch(url);
+  let parsedData = await data.json();
+  console.log(parsedData);
+  this.setState({articles:parsedData.articles})
+}
+
+Here's an explanation of how async and await work in this context:
+
+async componentDidMount(): The async keyword is used to define the componentDidMount method as an asynchronous function. 
+                          This allows you to use the await keyword inside the function to pause its execution until a promise is resolved.
+
+let data = await fetch(url);: This is where await comes into play. The fetch function is used to make an HTTP request to the specified URL, 
+                           and it returns a promise that resolves to the response of the request. By using await, you pause the execution of the function until the promise returned by fetch is resolved, meaning you're waiting for the data to be fetched from the API.
+
+let parsedData = await data.json();: Once the HTTP request is complete and the response is available,
+                              you use await again to pause the execution until the JSON data is parsed. The json method also returns a promise, so you wait for the parsing to complete.
+
+ this.setState({articles: parsedData.articles}): Finally, you use this.setState to update the component's state with the parsed data. This is a common pattern in React for storing and managing data that should trigger a re-render of the component when it changes.
+
+In summary, async and await are used in this code to ensure that asynchronous operations like fetching data from an API and parsing JSON are executed in a synchronous-like manner within the componentDidMount method.                             
+
+# A key attribute(must be equal to a unique value) must be given in each component when using router
+ - IT WILL AUTOMATICALLY RELOAD THE NEW COMPONENTS WHEN WE CLICK ON LINKS

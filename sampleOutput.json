@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 5,
+    "articles": [
+        {
+            "source": {
+                "id": "fox-sports",
+                "name": "Fox Sports"
+            },
+            "author": "Yaron Weitzman",
+            "title": "Emotion vs. Analytics: Why James Harden and Daryl Morey were always destined to implode",
+            "description": "How did perhaps the NBA's tightest superstar-GM partnership sour so quickly and publicly? FOX Sports spoke to nearly a dozen people connected to James Harden, Daryl Morey and the 76ers to find out.",
+            "url": "http://www.foxsports.com/stories/nba/why-james-harden-and-daryl-morey-were-always-destined-to-implode",
+            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2023/10/1408/814/09.27.23_Inside-The-Morey-Harden-Rift_16x9.jpg?ve=1&tl=1",
+            "publishedAt": "2023-10-03T14:00:58Z",
+            "content": "The first time James Harden asked Daryl Morey for a favor was during the 2012-13 season, not long after the star guard had arrived in Houston. It was a small request. \r\nHarden thought the Rockets cou… [+20547 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Jessica Toonkel, Sarah Krouse",
+            "title": "Netflix Plans to Raise Subscription Prices After Actors Strike Ends",
+            "description": "Company to become the latest streamer to lift fees; Disney weighs launching a new live-sports tier abroad",
+            "url": "https://www.wsj.com/business/media/netflix-price-increase-actors-strike-792de9be?mod=hp_lead_pos3",
+            "urlToImage": "https://images.wsj.net/im-861721/social",
+            "publishedAt": "2023-10-03T13:51:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": null,
+            "title": "New Travis Hunter Show ",
+            "description": "Fan easier, fan faster and fan better with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights and scores for all your favorite sports.",
+            "url": "https://bleacherreport.com/videos/464068-twelve-talks-with-travis-hunter-episode-5-vod",
+            "urlToImage": null,
+            "publishedAt": "2023-09-27T14:37:29.508984Z",
+            "content": "Copyright © 2023 Bleacher Report, Inc. Turner Broadcasting System, Inc.\r\n All Rights Reserved.\r\n BleacherReport.com is part of Bleacher Report Turner Sports Network, part of the Turner Sports and Ent… [+200 chars]"
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": null,
+            "title": "⭐️ New Micah Parsons Show ⭐️",
+            "description": "Fan easier, fan faster and fan better with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights and scores for all your favorite sports.",
+            "url": "https://bleacherreport.com/videos/464011-the-edge-with-micah-parsons-episode-3-vod",
+            "urlToImage": null,
+            "publishedAt": "2023-09-27T14:37:24.039991Z",
+            "content": "Copyright © 2023 Bleacher Report, Inc. Turner Broadcasting System, Inc.\r\n All Rights Reserved.\r\n BleacherReport.com is part of Bleacher Report Turner Sports Network, part of the Turner Sports and Ent… [+200 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": null,
+            "title": "Daily Briefing",
+            "description": "The day's top stories, from sports to movies to politics to world events.",
+            "url": "https://profile.usatoday.com/newsletters/daily-briefing/",
+            "urlToImage": "https://profile.usatoday.com/newsletters/resources/usat/property/usatoday/newsletter-thumbs/8872UT-E-NLETTER02@2x.jpg",
+            "publishedAt": "2021-08-15T15:35:07+00:00",
+            "content": "The day's top stories, from sports to movies to politics to world events."
+        }
+    ]
+}
